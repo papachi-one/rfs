@@ -5,10 +5,19 @@
 	<groupId>one.papachi.rfs</groupId>
 	<artifactId>rfs</artifactId>
 	<version>1.0.0</version>
+
 	<properties>
 		<maven.compiler.source>17</maven.compiler.source>
 		<maven.compiler.target>17</maven.compiler.target>
 	</properties>
+
+	<repositories>
+		<repository>
+			<id>vfs4j</id>
+			<url>https://maven.pkg.github.com/papachi-one/vfs4j</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		<dependency>
 			<groupId>one.papachi</groupId>
@@ -16,4 +25,5 @@
 			<version>1.0.0</version>
 		</dependency>
 	</dependencies>
+
 </project>
